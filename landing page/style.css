@@ -1,0 +1,78 @@
+body{
+    height: 100vh;
+    color: rgb(222, 165, 250);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+.pic{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    position: absolute;
+}
+.primary{
+    background: #1e90ff;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-block: 10px;
+}
+.primary:hover{
+    background: #1e90ff;
+    opacity: 0.8;
+    transform: scale(1.02);
+}
+.picture{
+    width: 80%;
+}
+.page{
+    width: 50%;
+    margin-right: 5%;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-block: 10px;
+    gap: 5px;
+}
+.icon{
+    font-size: 2rem;
+    color: black;
+}
+.icon:hover{
+    transform: scale(1.1);
+    transition: 0.5 ease-in-out;
+    cursor: pointer;
+}
+.fa-linkedin{
+    color: blue;
+}
+.fa-instagram{
+    color: palevioletred;
+}
+.pic:nth-child(1){
+    left: 15%;
+    top: 30%;
+}
+.pic:nth-child(2){
+    left: 30%;
+    top: 40%;
+}
+.pic:nth-child(3){
+    left: 20%;
+    top: 50%;
+}
+.pic:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    z-index: 5;
+    cursor: pointer;
+}
